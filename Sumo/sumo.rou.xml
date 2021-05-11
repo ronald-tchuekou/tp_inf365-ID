@@ -1,0 +1,23 @@
+<routes>
+	<vType id="car_1" accel="1.0" decel="5.0" length="3.0" maxSpeed="100.0" sigma="0.01" color="1,0,0"/>
+	<vType id="car_2" accel="1.0" decel="5.0" length="3.0" maxSpeed="100.0" sigma="0.01" color="0,1,0"/>
+	<vType id="car_3" accel="1.0" decel="5.0" length="3.0" maxSpeed="100.0" sigma="0.01" color="0,0,1"/>
+	<vType id="car_4" accel="1.0" decel="5.0" length="3.0" maxSpeed="100.0" sigma="0.01" color="1,1,0"/>
+
+	<!-- Routes -->
+	<route id="o_e" edges="edg1 edg3"/>
+	<route id="o_s" edges="edg1 edg5"/>
+	<route id="o_n" edges="edg1 edg8"/>
+
+	<route id="e_o" edges="edg4 edg2"/>
+	<route id="e_s" edges="edg4 edg5"/>
+	<route id="e_n" edges="edg4 edg8"/>
+
+	<route id="n_s" edges="edg7 edg5"/>
+	<route id="n_o" edges="edg7 edg2"/>
+	<route id="n_e" edges="edg7 edg3"/>
+
+	<route id="s_n" edges="edg6 edg8"/>
+	<route id="s_o" edges="edg6 edg2"/>
+	<route id="s_e" edges="edg6 edg3"/>
+</routes>

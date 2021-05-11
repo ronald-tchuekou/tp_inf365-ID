@@ -1,0 +1,16 @@
+<!-- Author Ronald Tchuekou -->
+<nodes version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <node id="node0" x="100" y="100" type="priority"/>
+
+    <node id="node1" x="60" y="100" type="dead_end"/>
+    <node id="node2" x="60" y="100" type="dead_end"/>
+
+    <node id="node3" x="140" y="100" type="dead_end"/>
+    <node id="node4" x="140" y="100" type="dead_end"/>
+
+    <node id="node5" x="100" y="60" type="dead_end"/>
+    <node id="node6" x="100" y="60" type="dead_end"/>
+
+    <node id="node7" x="100" y="140" type="dead_end"/>
+    <node id="node8" x="100" y="140" type="dead_end"/>
+</nodes>
